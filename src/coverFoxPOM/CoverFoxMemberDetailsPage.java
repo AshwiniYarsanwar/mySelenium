@@ -8,9 +8,9 @@ import org.openqa.selenium.support.ui.Select;
 
 public class CoverFoxMemberDetailsPage 
 {
-	@FindBy(id="Age-You")private WebElement ageDropdown;
+	@FindBy(id ="Age-You")private WebElement ageDropdown;
 
-	@FindBy(className ="next-btn")private WebElement nextButton;
+	@FindBy(className="next-btn")private WebElement nextButton;
 	
 	public CoverFoxMemberDetailsPage(WebDriver driver)
 	{

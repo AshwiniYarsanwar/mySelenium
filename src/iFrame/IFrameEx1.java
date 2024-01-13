@@ -17,7 +17,7 @@ public class IFrameEx1 {
 		System.out.println("Hi Am Cloning Project");
 		//switching focus from main page to i frame
 		driver.switchTo().frame("singleframe");
-		
+		System.out.println("Im pushing");
        String Test = driver.findElement(By.xpath("//h5[text()='iFrame Demo']")).getText();
 	   
        System.out.println("Text is "+Test);
