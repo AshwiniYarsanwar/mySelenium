@@ -14,6 +14,7 @@ public class IFrameEx1 {
 		driver.get("https://demo.automationtesting.in/Frames.html");
 		Thread.sleep(1000);
 		
+		System.out.println("Hi Am Cloning Project");
 		//switching focus from main page to i frame
 		driver.switchTo().frame("singleframe");
 		
